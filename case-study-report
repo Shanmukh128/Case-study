@@ -1,4 +1,7 @@
 First i created a empty reposotiry
 In that we created one python file in local repository and push into the remote repository
 And i created one new branch modified the file and pushed into new branch and merged both the branchs
+-And i collaborated the repositire and i clone the repository by using URL.After cloneing i modified
+ the date by using the different branch and pushed the changes and raised pull request.Then owner will
+ view the pull request and merged the pull request
 
