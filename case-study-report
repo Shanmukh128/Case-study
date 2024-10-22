@@ -1,12 +1,25 @@
-First i created a empty reposotiry
+First i created a empty repository
 In that we created one python file in local repository and push into the remote repository
 And i created one new branch modified the file and pushed into new branch and merged both the branchs
--And i collaborated the repositire and i clone the repository by using URL.After cloneing i modified
+-And i collaborated the repository and i clone the repository by using URL.After cloneing i modified
  the date by using the different branch and pushed the changes and raised pull request.Then owner will
  view the pull request and merged the pull request
 -Then i made changes in exits file and revert back to old one by using the commit id
--And i created a html page and stored in local repositire and pushed into remote repository
+-And i created a html page and stored in local repository and pushed into remote repository
 -And i created a two tags (v.01,v.02) stored in local repository and pushed into the remote repository by 
  using the push command (git push -u origin <tag name>
-
-
+-git stash is a like hidden and without giving commiting you have to stash.Then if you want to switch to 
+ another branch using stash esaly move to another branch after you have to call the hidden data by using
+ git stash pop ot git stash apply calling back to git status. if you want to save the data into thr new
+ branch by using the git stash branch <branch name> <stash id> if you delete the stage list using this one
+ git stash drop <stash id> it is deleted it you want clear all date in stash list use this one 
+ git stash clear all date is cleared in stash list
+-git history means it gives all modification and commited history
+ by using <git diff> it will gives all the modification we made it will clerly give
+ by using <git log> it will gives what and all commited history can be given
+-Hooks create a pre-commit hook to navigate to .git/hooks/ and edit pre-commit file and it is used automate tasks
+ Add a script (e.g.to check code formatting) and you should give permission to the file by using this command
+ Make the hook executable ,chmod +x .git/hooks/pre-commit and permission and avery is changed
+-git rebash <branch name> it is used make commites into future branch it is rebash into the master branch
+ git checkout <master> and git rebash <futhur branch>
+ And rebase is most poweful command and it cannot using in public repository and rebase is alternative to merge
